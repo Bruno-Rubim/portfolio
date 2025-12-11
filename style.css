@@ -1,0 +1,22 @@
+body {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  background-image: url("/img/bg_pattern.png");
+  padding: 25px;
+}
+
+.section_links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 10rem;
+}
+
+.section_link {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 256px;
+}
