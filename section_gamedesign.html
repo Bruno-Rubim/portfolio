@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/fav_icon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <p><a href="index.html">home</a></p>
+    <h1>Game Design</h1>
+    <p>My works of Game Design</p>
+    <div class="project-section">
+      <h2>Perito dos E-mails (E-mail expert)</h2>
+      <p>
+        Note: The project and game are currently only avaliable in brazilian
+        portuguese.
+        <br />
+        Due to issues in hosting the platform may have long loading times
+      </p>
+      <p>
+        This was part of my final project as a system development student at
+        <a href="">IFPR</a>, an educational web game made with javascript to
+        teach about malicious emails.
+      </p>
+      <p>
+        The game has the gameplay of <a href="">Papers Please</a> in the setting
+        of an earlt 2000's computer, using parodies of real companies to
+        simulate realistic scenarios about dealing with emails, along with a
+        leaderboard system, to generate a safe and fun environment to teach the
+        player how to deal with scenarios similar to real ones.
+      </p>
+      <p>
+        The player is faced with a sequence of levels, each with a list of
+        emails they must classify according to the taught rules. Each level
+        introduces new rules and emails become increasingly subtle, having a
+        sense of progression and allowing them to reach the subtleness of their
+        real life counterparts.
+      </p>
+      <p>
+        E-mails were composed of elements, the sender's name, e-mail address and
+        picture, as well as the text content of the e-mail. Pointing out
+        suspicious elments according to the criterea taught through the game
+        results in higher scores at the end of the level.
+      </p>
+      <p>
+        To engage the players, the platform where we featured the game was built
+        with a leaderboard. The sum of the highscore of each completed level
+        resuletd on the value shown on the leaderbord, incentivizing players to
+        perfect their skills on analyzing and spotting suspicious elements.
+      </p>
+      <div class="image-paragraph">
+        <button type="button" class="carousel-btn" id="btn-a"><</button>
+        <img id="perito-carousel" src="img/mail_game/desktop.png" alt="" />
+        <button type="button" class="carousel-btn" id="btn-b">></button>
+      </div>
+    </div>
+    <h2>Worm Sweeper</h2>
+    <h2>MiniScale</h2>
+    <h2>Disc Bot</h2>
+    <h2>DBiRL</h2>
+  </body>
+</html>
+<script>
+  let srcList = [
+    "img/mail_game/desktop.png",
+    "img/mail_game/mail_4.png",
+    "img/mail_game/mail_2.png",
+    "img/mail_game/mail_3.png",
+    "img/mail_game/mail_1.png",
+  ];
+  let currentImgId = 0;
+  function carouselShift(imgElement, num) {
+    currentImgId += num;
+    if (currentImgId >= srcList.length) {
+      currentImgId = 0;
+    } else if (currentImgId < 0) {
+      currentImgId = srcList.length - 1;
+    }
+    imgElement.src = srcList[currentImgId];
+  }
+  function bindCarousel(elementRef, buttonLeftRef, buttonRightRef) {
+    const element = document.querySelector(elementRef);
+    document.querySelector(buttonLeftRef).onclick = () => {
+      carouselShift(element, -1);
+    };
+    document.querySelector(buttonRightRef).onclick = () => {
+      carouselShift(element, 1);
+    };
+  }
+  bindCarousel("#perito-carousel", "#btn-a", "#btn-b");
+</script>

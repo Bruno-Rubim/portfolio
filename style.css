@@ -1,10 +1,20 @@
 body {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "Geom", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: white;
+  color: #fff;
+  /* background-image: linear-gradient(#334feb, #2000bf); */
   background-image: url("img/bg_pattern.png");
   padding: 25px;
+  font-size: large;
+}
+
+a:visited {
+  color: #a0b6ff;
+}
+
+a {
+  color: #d2ddff;
 }
 
 .section_links {
@@ -28,4 +38,27 @@ body {
   .section_link {
     margin-top: 3rem;
   }
+}
+
+.project-section {
+  padding: 5rem 10rem;
+}
+
+.image-paragraph {
+  justify-self: center;
+  display: flex;
+  column-gap: 3rem;
+}
+
+.carousel-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 5rem;
+  cursor: pointer;
+  height: auto;
+}
+
+.carousel-btn:focus {
+  outline: none;
 }
