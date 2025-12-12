@@ -68,32 +68,13 @@
     <h2>DBiRL</h2>
   </body>
 </html>
+<script src="scripts/carousel.js"></script>
 <script>
-  let srcList = [
+  bindCarousel("#perito-carousel", "#btn-a", "#btn-b", [
     "img/mail_game/desktop.png",
     "img/mail_game/mail_4.png",
     "img/mail_game/mail_2.png",
     "img/mail_game/mail_3.png",
     "img/mail_game/mail_1.png",
-  ];
-  let currentImgId = 0;
-  function carouselShift(imgElement, num) {
-    currentImgId += num;
-    if (currentImgId >= srcList.length) {
-      currentImgId = 0;
-    } else if (currentImgId < 0) {
-      currentImgId = srcList.length - 1;
-    }
-    imgElement.src = srcList[currentImgId];
-  }
-  function bindCarousel(elementRef, buttonLeftRef, buttonRightRef) {
-    const element = document.querySelector(elementRef);
-    document.querySelector(buttonLeftRef).onclick = () => {
-      carouselShift(element, -1);
-    };
-    document.querySelector(buttonRightRef).onclick = () => {
-      carouselShift(element, 1);
-    };
-  }
-  bindCarousel("#perito-carousel", "#btn-a", "#btn-b");
+  ]);
 </script>
