@@ -58,7 +58,7 @@ button:focus {
 
 @media (max-width: 600px) {
   .section_links {
-    margin-top: 5rem;
+    margin-top: 0px;
   }
   .section_link {
     margin-top: 3rem;
