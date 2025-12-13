@@ -50,15 +50,17 @@ a {
   column-gap: 3rem;
 }
 
-.carousel-btn {
+button {
   background: none;
   border: none;
-  color: white;
-  font-size: 5rem;
   cursor: pointer;
-  height: auto;
 }
 
-.carousel-btn:focus {
+button:focus {
   outline: none;
+}
+
+.carousel-btn {
+  color: white;
+  font-size: 5rem;
 }

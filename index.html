@@ -14,19 +14,16 @@
     />
   </head>
   <body>
-    <h1>Bruno Rubim's portfolio</h1>
-    <p>
-      Hi, welcome to my portfolio! Here is where you can find overviews of my
-      work in different projects.
-    </p>
-    <p>
-      They will be separated in different sections, depending which area of my
-      work is of most interest.
-    </p>
-    <p>
-      Some projects will be featured in multiple sections given that my work on
-      them involved different areas of art and design.
-    </p>
+    <button onclick="setLanguage('en')">
+      <img src="img/us.png" width="48px" alt="" />
+    </button>
+    <button onclick="setLanguage('pt')">
+      <img src="img/pt.png" width="48px" alt="" />
+    </button>
+    <h1 id="portfolio-title"></h1>
+    <p id="welcome-1"></p>
+    <p id="welcome-2"></p>
+    <p id="welcome-3"></p>
     <div class="section_links">
       <div class="section_link">
         <a href="section_web.html">
@@ -71,3 +68,4 @@
     </div>
   </body>
 </html>
+<script src="scripts/translation.js"></script>
