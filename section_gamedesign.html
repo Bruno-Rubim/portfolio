@@ -14,48 +14,22 @@
     />
   </head>
   <body>
+    <button onclick="setLanguage('en')">
+      <img src="img/us.png" width="48px" alt="" />
+    </button>
+    <button onclick="setLanguage('pt')">
+      <img src="img/pt.png" width="48px" alt="" />
+    </button>
     <p><a href="index.html">home</a></p>
     <h1>Game Design</h1>
-    <p>My works of Game Design</p>
+    <p id="game-design-intro"></p>
     <div class="project-section">
-      <h2>Perito dos E-mails (E-mail expert)</h2>
-      <p>
-        Note: The project and game are currently only avaliable in brazilian
-        portuguese.
-        <br />
-        Due to issues in hosting the platform may have long loading times
-      </p>
-      <p>
-        This was part of my final project as a system development student at
-        <a href="">IFPR</a>, an educational web game made with javascript to
-        teach about malicious emails.
-      </p>
-      <p>
-        The game has the gameplay of <a href="">Papers Please</a> in the setting
-        of an earlt 2000's computer, using parodies of real companies to
-        simulate realistic scenarios about dealing with emails, along with a
-        leaderboard system, to generate a safe and fun environment to teach the
-        player how to deal with scenarios similar to real ones.
-      </p>
-      <p>
-        The player is faced with a sequence of levels, each with a list of
-        emails they must classify according to the taught rules. Each level
-        introduces new rules and emails become increasingly subtle, having a
-        sense of progression and allowing them to reach the subtleness of their
-        real life counterparts.
-      </p>
-      <p>
-        E-mails were composed of elements, the sender's name, e-mail address and
-        picture, as well as the text content of the e-mail. Pointing out
-        suspicious elments according to the criterea taught through the game
-        results in higher scores at the end of the level.
-      </p>
-      <p>
-        To engage the players, the platform where we featured the game was built
-        with a leaderboard. The sum of the highscore of each completed level
-        resuletd on the value shown on the leaderbord, incentivizing players to
-        perfect their skills on analyzing and spotting suspicious elements.
-      </p>
+      <h2 id="perito-title"></h2>
+      <p id="perito-note"></p>
+      <p id="preito-1"></p>
+      <p id="perito-2"></p>
+      <p id="perito-3"></p>
+      <p id="perito-4"></p>
       <div class="image-paragraph">
         <button type="button" class="carousel-btn" id="btn-a"><</button>
         <img id="perito-carousel" src="img/mail_game/desktop.png" alt="" />
@@ -68,6 +42,7 @@
     <h2>DBiRL</h2>
   </body>
 </html>
+<script src="scripts/translation.js"></script>
 <script src="scripts/carousel.js"></script>
 <script>
   bindCarousel("#perito-carousel", "#btn-a", "#btn-b", [

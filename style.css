@@ -31,15 +31,6 @@ a {
   max-width: 256px;
 }
 
-@media (max-width: 600px) {
-  .section_links {
-    margin-top: 5rem;
-  }
-  .section_link {
-    margin-top: 3rem;
-  }
-}
-
 .project-section {
   padding: 5rem 10rem;
 }
@@ -63,4 +54,22 @@ button:focus {
 .carousel-btn {
   color: white;
   font-size: 5rem;
+}
+
+@media (max-width: 600px) {
+  .section_links {
+    margin-top: 5rem;
+  }
+  .section_link {
+    margin-top: 3rem;
+  }
+  .project-section {
+    padding: 1rem;
+  }
+  img {
+    max-width: 256px;
+  }
+  .image-paragraph {
+    column-gap: 1rem;
+  }
 }
