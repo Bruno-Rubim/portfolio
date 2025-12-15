@@ -23,7 +23,23 @@ const texts = {
     en: "Currently, the only populated section is Game Design",
     pt: "Atualmente, a única seção com conteúdo é Game Design.",
   },
-  "game-design-intro": {
+  "web-title": {
+    en: "Web Design/Development",
+    pt: "Projetos/Design Web",
+  },
+  "art-title": {
+    en: "Visual Art",
+    pt: "Arte Visual",
+  },
+  "gamedesign-title": {
+    en: "Game Design",
+    pt: "Design de Jogos",
+  },
+  "gamedev-title": {
+    en: "Game Development",
+    pt: "Desenvolvimento de Jogos",
+  },
+  "gamedesign-intro": {
     en: "My works of Game Design",
     pt: "Meus trabalhos de Game Design",
   },
