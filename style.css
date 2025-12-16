@@ -17,6 +17,16 @@ a {
   color: #d2ddff;
 }
 
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
 .section_links {
   display: flex;
   justify-content: space-around;
@@ -32,7 +42,7 @@ a {
 }
 
 .project-section {
-  padding: 5rem 10rem;
+  padding: 2.5rem 10rem;
 }
 
 .image-paragraph {
@@ -41,19 +51,22 @@ a {
   column-gap: 3rem;
 }
 
-button {
-  background: none;
-  border: none;
-  cursor: pointer;
+.hover-move {
+  transition: 200ms;
 }
 
-button:focus {
-  outline: none;
+.hover-move:hover {
+  transform: translateY(-5px);
 }
 
 .carousel-btn {
-  color: white;
+  color: rgba(255, 255, 255, 0.7);
   font-size: 5rem;
+  transition: 200ms;
+}
+
+.carousel-btn:hover {
+  color: white;
 }
 
 @media (max-width: 600px) {
