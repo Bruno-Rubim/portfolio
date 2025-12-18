@@ -7,16 +7,16 @@ body {
   background-image: url("img/bg_pattern.png");
   padding: 25px;
   font-size: large;
-  -webkit-text-stroke: 10px #255dc4;
+  -webkit-text-stroke: 5px #255dc4;
   paint-order: stroke fill;
 }
 
-a:visited {
-  color: #a0b6ff;
+a {
+  color: #70bfff;
 }
 
-a {
-  color: #d2ddff;
+a:visited {
+  color: #6c9fff;
 }
 
 button {
@@ -51,6 +51,16 @@ button:focus {
   justify-self: center;
   display: flex;
   column-gap: 3rem;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.subtitled-image {
+  text-align: center;
+}
+
+.pixel-image {
+  image-rendering: pixelated;
 }
 
 .hover-move {
