@@ -7,7 +7,7 @@ body {
   background-image: url("img/bg_pattern.png");
   padding: 25px;
   font-size: large;
-  -webkit-text-stroke: 5px #255dc4;
+  /* -webkit-text-stroke: 5px #255dc4; */
   paint-order: stroke fill;
 }
 
