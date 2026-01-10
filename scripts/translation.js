@@ -110,40 +110,40 @@ const texts = {
     pt: `Um arquivo chamado "Gerenciador do Jogo" cria um Estado de Jogo e um Objeto de Canvas com uma dada referência de um elemento HTML de canvas. Com ambas instâncias um loop é iniciado usando requestAnimationFrame, que chama as funções para atualizar o Estado de Jogo e renderizar sua Cena Atual usando o Objeto de Canvas.`,
   },
   "perito-art-1": {
-    en: `The game takes place inside a 2000's style computer, reminiscent of operating systems like <a href="https://en.wikipedia.org/wiki/Windows_XP" target="_blank">Windows XP</a>. Pixel art was chosen as the medium with a total screen size of 352x256. The game's actual screen size could scale up (without decimal values) to 3 times its size, keeping it pixel perfect but still being easily visible on the screen. For collor palette it was chosen<a href="https://www.tumblr.com/go-crag-go/151152049181/grafxkids-today-land-palette-release" target="_blank">"GrafxKid’s Today Land"</a>, with some small aditions, both for its pleasing color tones and simmilarity to the chosen visual style.`,
-    pt: ``,
+    en: `The game takes place inside a 2000's style computer, reminiscent of operating systems like <a href="https://en.wikipedia.org/wiki/Windows_XP" target="_blank">Windows XP</a>. Pixel art was chosen as the medium with a total screen size of 352x256. The game's actual screen size can scale up (without decimal values) to 3 times its size, keeping it pixel perfect but still being easily visible on the screen. For collor palette it was chosen <a href="https://www.tumblr.com/go-crag-go/151152049181/grafxkids-today-land-palette-release" target="_blank">"GrafxKid’s Today Land"</a>, with some small aditions, both for its pleasing color tones and simmilarity to the chosen visual style.`,
+    pt: `O jogo se situa em um computador do estilo de 2000, com um visual similar de sistemas opreacionais como <a href="https://pt.wikipedia.org/wiki/Windows_XP" target="_blank">Windows XP</a>. O meio de arte foi escolhido como pixel art em uma tela de 352x256 de tamanho total. O tamanho real da tela do jogo pode ser escalado (sem valores decimais) até 3 vezes seu tamanho, se mantendo "pixel perfect" (sem esticar os pixels) mas ainda facilmente visível na tela. Para a palheta de cores foi escolhido <a href="https://www.tumblr.com/go-crag-go/151152049181/grafxkids-today-land-palette-release" target="_blank">"Today Land de GrafxKid’s"</a>, com algumas pequenas adições, tanto para cores agradáveis e similaridade com o estilo visual escolhido para o jogo.`,
   },
   "perito-art-2": {
     en: `The game was devided into several screens, those being the desktop, saves, level selection, email, score and configuration screens.`,
-    pt: ``,
+    pt: `O jogo é dividido em várias "telas", sendo a área de trabalho, salvamento de progresso, seleção de níveis, emails, pontuação e configurações.`,
   },
   "perito-art-desktop": {
-    en: `Starting from the desktop screen, icons representing different actions and travel between screens are featured in a solid blue background.`,
-    pt: ``,
+    en: `On the desktop screen, icons representing different actions and travel between screens are featured in a solid blue background.`,
+    pt: `Na tela da área de trabalho existem ícones representando diferentes ações e mudança entre cenas em um fundo azul.`,
   },
   "perito-art-icon-mail": {
     en: `Icon for the level selection screen<br>A mail envelope with the 3 buttons of e-mail classification used during levels.`,
-    pt: ``,
+    pt: `Ícone para a tela de seleção de nível<br>Um envelope de correspondência com os 3 botões de classificação de emails usados nos níveis.`,
   },
   "perito-art-icon-saves": {
     en: `Icon for the save selection screen<br>A box with user avatars icons, similar to that screen's visual design.`,
-    pt: ``,
+    pt: `Ícone para a tela de seleção e salvamento de progresso.<br>Uma caia com ícones de avatares de usuários, similiar ao estilo visual da tela em questão.`,
   },
   "perito-art-icon-save": {
     en: `Icon for manual saving<br>A floppy disc, commonly associated with saving data.`,
-    pt: ``,
+    pt: `Ícone para o salvamento manual<br>Um disquete, comumente associado com salvamento de dados.`,
   },
   "perito-art-icon-options": {
     en: `Icon for the options screen<br>A set of gears, commonly used for settings and options.`,
-    pt: ``,
+    pt: `Ícone para a tela de opções<br>Engrenagens, comumente usado para configurações e preferências.`,
   },
   "perito-art-saves": {
     en: `Derived from profile selection in old computers and how often diferent save slots are used as the different saves of different players, the save selection screen is a blue background with avatar icons, each avatar representing a save slot. An empty save being represented in gray and used saves with bright colors.`,
-    pt: ``,
+    pt: `Inspirado por seleções de perfil em computadores antigos e como salvamentos de progressos diferentes são comumente usados como progressos de jogadores diferentes, a tela de salvamento de progresso é um fundo azul escuro com ícones de avatares, cada avatar representando um espaço de progresso. Um progresso vazio sendo representado em cinza e salvamentos com progresso com cores vivas distintas.`,
   },
   "perito-art-levels": {
-    en: `In reference to an e-mail inbox, the levels are displayed like new emails, each unlocked level becoming a new email at the top of the list. Levels also have a slot for a completion badge, being empty when a level has not been completed, having a green check mark to show that a level has been completed, or a shiny shield medal for when a level has been completed without errors.`,
-    pt: ``,
+    en: `In reference to an e-mail inbox, the levels are displayed like new emails, each unlocked level appearing like a new email at the top of the list. Levels also have a slot for a completion badge, being empty when a level has not been completed, having a green check mark to show that a level has been completed, or a shiny shield medal for when a level has been completed without errors.`,
+    pt: `Fazendo referência à uma caixa de entrada de sistemas de email, os níveis aparecem como novos emails, cada  nível desbloqueado aparecendo como um novo email na lista. Níveis também possuem um espaço para uma medalha de progresso, estando vazio para um nível ainda não completo, uma marca verde para um nível que foi concluído, ou uma medalha brilhante para um nível que foi concluído sem erros.`,
   },
   "cibernauta-title": {
     en: `<a href="https://cibernauta-frontend.vercel.app" target="_blank">Cibernauta</a>`,
